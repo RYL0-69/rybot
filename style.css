@@ -1,0 +1,173 @@
+body {
+    background: linear-gradient(135deg, #0f0f0f, #1a1a1a, #262626);
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header {
+    padding: 50px 20px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+
+p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 10px auto;
+    line-height: 1.6;
+}
+
+.hero-banner {
+    max-width: 85%;
+    height: auto;
+    margin: 0 auto 20px auto;
+    display: block;
+    border-radius: 10px;
+    animation: fadeInUp 1.5s ease-in-out;
+}
+
+.feature img {
+    max-width: 65%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.feature img:hover {
+    transform: scale(1.05);
+}
+
+.feature {
+    margin-bottom: 50px;
+    padding: 10px;
+    animation: fadeInUp 1.5s ease-in-out;
+}
+
+#cta {
+    margin-top: 50px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+#cta img {
+    max-width: 50%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#cta img:hover {
+    transform: scale(1.08);
+}
+
+.btn {
+    padding: 15px 30px;
+    background: linear-gradient(90deg, #1db954, #17a74c);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    display: inline-block;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background: linear-gradient(90deg, #17a74c, #1db954);
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 1.1em;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+/* Founders Ticker Styling */
+.ticker {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #1db954;
+    margin-top: 20px;
+}
+
+/* Founders List Section */
+#founders-list {
+    margin-top: 50px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#founders-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.founder-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+}
+
+.founder-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.founder-card h3 {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+.founder-card p {
+    font-size: 1em;
+    color: #aaa;
+}
+
+/* Keyframe Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

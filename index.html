@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rybot</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.6/lottie.min.js"></script>
+</head>
+<body>
+    <header>
+        <img src="https://raw.githubusercontent.com/RYL0-69/rybot/refs/heads/main/Images/file-SPDWanwASc2m6Vor6GZjz3%20(1).webp" alt="Hero Banner" class="hero-banner">
+        <h1>Automate Your Trades, Maximize Your Profits</h1>
+        <p>The ultimate AI-driven trading bot for crypto & forex traders.</p>
+        <a href="https://gumroad.com" class="btn">Get the Bot</a>
+    </header>
+
+    <section id="features">
+        <h2>Why Choose Rybot?</h2>
+        
+        <div id="features-animation" class="lottie-container"></div> <!-- Feature List Animation -->
+        
+        <div class="feature">
+            <img src="https://raw.githubusercontent.com/RYL0-69/rybot/refs/heads/main/Images/file-E3Eo9AdZV2mCrbTEEWUG6Q.webp" alt="Grid Trading Bot">
+            <h3>Grid Trading</h3>
+            <p>Optimize profits in sideways markets with automated grid-based strategies.</p>
+        </div>
+        <div class="feature">
+            <img src="https://raw.githubusercontent.com/RYL0-69/rybot/refs/heads/main/Images/file-WLhauPb4USCG2HxfiF9qMp.webp" alt="Scalping Bot">
+            <h3>Scalping Strategy</h3>
+            <p>Execute high-frequency trades to capitalize on market volatility.</p>
+        </div>
+        <div class="feature">
+            <img src="https://raw.githubusercontent.com/RYL0-69/rybot/refs/heads/main/Images/file-SRJYDCBA2ZrxyZTNhCTN68.webp" alt="DCA Bot">
+            <h3>Dollar Cost Averaging (DCA)</h3>
+            <p>Mitigate risk by spreading purchases over time for long-term gains.</p>
+        </div>
+    </section>
+
+    <section id="charts">
+        <h2>Live Market Insights</h2>
+        <div id="chart-animation" class="lottie-container"></div> <!-- Line Chart Animation -->
+    </section>
+
+    <section id="cta">
+        <h2>Start Trading Smarter Today</h2>
+        <img src="https://raw.githubusercontent.com/RYL0-69/rybot/refs/heads/main/Images/file-5Zpqm6DZTAXwrbYkSnJbdt.webp" alt="Call to Action">
+        <p>Join thousands of traders using AI automation to increase their profits.</p>
+        <a href="https://gumroad.com" class="btn">Get Started Now</a>
+    </section>
+
+    <footer>
+        <p>© 2025 Rybot | All Rights Reserved</p>
+    </footer>
+
+    <script>
+        // Load Feature List Animation
+        lottie.loadAnimation({
+            container: document.getElementById('features-animation'),
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+            path: 'features_list.json' // Path to the Lottie animation file
+        });
+
+        // Load Line Chart Animation
+        lottie.loadAnimation({
+            container: document.getElementById('chart-animation'),
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+            path: 'line_chart.json' // Path to the Lottie animation file
+        });
+    </script>
+
+</body>
+</html>
